@@ -14,7 +14,7 @@ public class ReadingFile {
     public static List<Integer> careTime = new ArrayList<Integer>();
 
     public void fileRead() {
-//         String path = "E:/WorkSoft/WorkSoft/input.txt";
+//         String path = "E:/SuperPower/SuperPowerSoft/input.txt";
         Scanner scn = new Scanner(System.in);
         System.out.println("Введите путь к файлу, например: E:/work/input.txt");
         String path = scn.nextLine();
